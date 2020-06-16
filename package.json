@@ -1,0 +1,36 @@
+{
+  "name": "stasis",
+  "version": "0.1.0",
+  "description": "Simple suspender extension",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "check-types": "tsc"
+  },
+  "keywords": [
+    "webextension",
+    "suspension",
+    "suspender"
+  ],
+  "author": "PurpleMyst",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-typescript": "^4.1.2",
+    "rollup": "^2.16.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.3",
+    "webextension-polyfill-ts": "^0.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PurpleMyst/stasis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PurpleMyst/stasis/issues"
+  },
+  "homepage": "https://github.com/PurpleMyst/stasis#readme"
+}

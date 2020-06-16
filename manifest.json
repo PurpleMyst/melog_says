@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "Stasis",
+  "version": "0.1.0",
+  "description": "Simple suspender extension",
+  "permissions": ["tabs"],
+  "background": { "page": "dist/background.html" }
+}
