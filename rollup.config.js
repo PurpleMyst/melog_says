@@ -6,7 +6,7 @@ import { terser } from "rollup-plugin-terser";
 export default {
   input: "src/index.ts",
   output: {
-    file: "docs/index.js",
+    file: "dist/index.js",
     format: "iife",
   },
   plugins: [
@@ -17,7 +17,7 @@ export default {
       targets: [
         {
           src: ["src/index.html", "src/index.css", "src/melog.png"],
-          dest: "docs",
+          dest: "dist",
         },
       ],
     }),
